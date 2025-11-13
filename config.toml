@@ -1,0 +1,14 @@
+[theme]
+# Primary accent color (a medium pink from your palette)
+primaryColor = "#FFB2C5"  # Cherry Blossom Pink
+
+# Background color of the main content area (matched to the logo's background)
+backgroundColor = "#EFEFEF" # A very light grey from the robot image background
+
+# Background color for sidebar and secondary elements (a lighter pink)
+secondaryBackgroundColor = "#FDD5DF" # Mimi Pink
+
+# Font color of the primary text
+textColor = "#333333" # Dark gray for readability
+
+font = "sans serif"
