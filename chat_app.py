@@ -134,7 +134,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # 4. Handle User Input
-if prompt := st.chat_input("Wassup?"):
+if prompt := st.chat_input("How can I help you today"):
     
     # Add user message to the stored chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -167,4 +167,5 @@ if prompt := st.chat_input("Wassup?"):
         )
         
     # Store the full, final assistant response in the chat history
+
     st.session_state.messages.append({"role": "assistant", "content": full_response})
